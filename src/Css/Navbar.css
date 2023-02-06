@@ -2,8 +2,8 @@
     background-color: #ffff;
     border-radius: 30px;
     align-items: center;
-    justify-content: center;
     display: flex;
+    margin: 3% 1% auto 1%;
     
 }
 .nav a {
@@ -11,6 +11,11 @@
     align-items: center;
     text-decoration: none;
     text-align: center;
+    font-size:125%;
+
+}
+.nav a.active {
+    color:#5140D1;
 
 }
 
@@ -19,15 +24,17 @@
 }
 
 .nav ul{
-    display: inline-flex;
-    list-style: none;
-    gap: 16rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 95%;
+    padding:2%;  
 }
 .nav li{
+    color:black;
+    flex: 0 1 auto;
+    list-style-type: none;
+}
 
-    float: inline-start;
-}
-logo{
-    height: 10px;
-    width: 10px;
-}
+
+
